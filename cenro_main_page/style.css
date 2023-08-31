@@ -98,8 +98,8 @@ nav .nav-links a {
     width: 165px;
     height: 206px;
     display: inline-block;
-    margin: 4px;
-    border-radius: 10px;
+    margin: 8px;
+    box-shadow: 12px 12px 0px 0px rgba(0, 0, 0, 0.37);
 }
 
 .cards-content {
@@ -298,7 +298,6 @@ nav .nav-links a {
     justify-content: space-between;
     align-items: center;
     padding-top: 20px ;
-    padding-bottom: 60px;
 }
 
 .register-title {
@@ -339,20 +338,117 @@ nav .nav-links a {
     flex-direction: column;
 }
 
-.register input,
-.register select {
+.register .special {
     width: 100%;
     height: 36px;
     flex-shrink: 0;
+    padding-left: 10px;
+    font-family: var(--font2);
+    letter-spacing: 1.4px;
 }
 
 .address {
     display: flex;
+    justify-content: space-between; 
 }
 
+.address1 {
+    display: flex;
+    flex-direction: column;
+    padding-right: 5px;
+    flex-basis: 50%;
+}
 
+.address2 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
+    flex-basis: 50%;
+}
 
+.tnc {
+    display: flex;
+    margin: 10px 0 20px 0;
+    align-items: center;
+}
 
+.tnc input[type=checkbox] {
+    accent-color: var(--primary);
+    color: var(--white)
+}
+
+.tnc a {
+    color: var(--primary);
+    font-family: var(--font1);
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 93.2%; /* 11.184px */
+    letter-spacing: 1.44px;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+input[type=submit]{
+    width: 100%;
+    height: 36px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    background: var(--accent);
+    box-shadow: 12px 12px 0px 0px rgba(0, 0, 0, 0.37);
+    color: var(--white);
+    font-family: var(--font1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 93.2%; /* 14.912px */
+    letter-spacing: 1.92px;
+}
+
+/* PARTNERSHIPS */
+.partnerships {
+    background-color: var(--neutral);
+    padding-bottom: 40px;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+}
+
+.logos img {
+    width: 80px;
+}
+
+/* FOOTER */
+footer {
+    background-color: var(--footer);
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1264px;
+    margin: 0 auto;
+    height: 180px;
+}
+
+footer .punch {
+    max-width: 500px;
+}
+
+footer .punch p {
+    color: var(--white);
+    font-family: var(--font1);
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 98.2%; /* 39.28px */
+    letter-spacing: 9.6px;
+}
+
+footer .footer-links {
+    max-width: 255px;
+}
 
 
 

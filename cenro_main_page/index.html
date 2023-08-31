@@ -182,13 +182,13 @@
                 <div class="register-form">
                     <form method="post" autocomplete="off" name="google-sheet" id="regform">
                         <label for="name">FULL NAME</label>
-                        <input type="text" name="name" id="name" required>
+                        <input class="special" type="text" name="name" id="name" required>
                         
                         <label for="age">AGE</label>
-                        <input type="number" name="age" id="age" min="13" max="150" required>
+                        <input class="special" type="number" name="age" id="age" min="13" max="150" required>
                         
                         <label for="gender">GENDER</label>
-                        <select name="gender" id="gender" required>
+                        <select class="special" name="gender" id="gender" required>
                             <option value="prefer-not-say">SELECT</option>
                             <option value="male">MALE</option>
                             <option value="female">FEMALE</option>
@@ -196,23 +196,22 @@
                         </select>
                         
                         <label for="contact">CONTACT NUMBER</label>
-                        <input type="tel" name="contact" id="contact" required >
+                        <input class="special" type="tel" name="contact" id="contact" required >
                         <label for="email">EMAIL</label>
-                        <input type="email" name="email" id="email" required>
-                        <br>
+                        <input class="special" type="email" name="email" id="email" required>
                         
                         <div class="address">
                             <div class="address1">
-                                <label for="house">HOUSE NUMBER</label>
-                                <input type="text" name="house" id="house" required>
+                                <label for="house">HOUSE NO.</label>
+                                <input class="special" type="text" name="house" id="house" required>
                                 <label for="purok">PUROK</label>
-                                <input type="text" name="purok" id="purok" required>
+                                <input class="special" type="text" name="purok" id="purok" required>
                             </div>
                             <div class="address2">
                                 <label for="barangay">BARANGAY</label>
-                                <input type="text" name="barangay" id="barangay" required>
+                                <input class="special" type="text" name="barangay" id="barangay" required>
                                 <label for="city">CITY</label>
-                                <input type="text" name="city" id="city" required>
+                                <input class="special" type="text" name="city" id="city" required>
                             </div>
                         </div>
                         
@@ -225,5 +224,30 @@
             </div>
         </div>
     </section>
+
+    <!-- PARTNERSHIPS -->
+    <section class="partnerships">
+        <div class="title">
+            <h1>PARTNERSHIPS</h1>
+        </div>
+        <div class="logos">
+            <img src="images/pup.png" alt="">
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-wrapper">
+            <div class="punch">
+                <p>Inspiring Change, Sustaining Life</p>
+            </div>
+            <div class="footer-links">
+                <div class="socmed">
+                </div>
+                <div class="newletter">
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
