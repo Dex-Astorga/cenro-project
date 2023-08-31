@@ -389,7 +389,7 @@ nav .nav-links a {
     padding-left: 10px;
 }
 
-input[type=submit]{
+.submit-form{
     width: 100%;
     height: 36px;
     flex-shrink: 0;
@@ -431,10 +431,12 @@ footer {
     max-width: 1264px;
     margin: 0 auto;
     height: 180px;
+
 }
 
 footer .punch {
     max-width: 500px;
+    flex-basis: 50%;
 }
 
 footer .punch p {
@@ -446,9 +448,69 @@ footer .punch p {
     letter-spacing: 9.6px;
 }
 
-footer .footer-links {
-    max-width: 255px;
+.footer-links {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items:  flex-end;
 }
 
+.socmed {
+    padding-bottom: 15px;
+}
+
+.socmed img {
+    width: 40px;
+    padding-left: 20px;
+}
+
+.content p {
+    text-align: right;
+    width: 100%;
+    padding-bottom: 5px;
+    color: var(--white);
+    font-family: var(--font2);
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 98.2%; /* 11.784px */
+    letter-spacing: 2.88px;
+}
+
+.newsletter-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    width: 255px;
+    height: 34px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    background: var(--primary);
+    box-shadow: 12px 12px 0px 0px rgba(0, 0, 0, 0.37);
+}
+
+.newsletter-button p {
+    color: var(--white);
+    font-family: var(--font2);
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 98.2%; /* 11.784px */
+    letter-spacing: 2.88px;
+}
+
+.newsletter-button .nlb {
+    width: 86px;
+    height: 28px;
+    flex-shrink: 0;
+    background-color: var(--accent);
+    color: var(--white);
+    font-family: var(--font1);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 98.2%;
+    letter-spacing: 2.88px;
+    padding: 5px 6px;
+    border: none;
+}
 
 

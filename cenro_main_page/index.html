@@ -219,7 +219,7 @@
                             <input type="checkbox" name="tnc" id="tnc" checked required>
                             <a href="{{url_for('tnc')}}" target="_blank">I AGREE WITH THE TERMS AND CONDITIONS</a>
                         </div>
-                        <input type="submit" value="JOIN CLUSTER" name="submit" onclick="clearForm()">
+                        <input class="submit-form" type="submit" value="JOIN CLUSTER" name="submit" onclick="clearForm()">
                     </form>
             </div>
         </div>
@@ -243,8 +243,18 @@
             </div>
             <div class="footer-links">
                 <div class="socmed">
+                    <a href=""><img src="/images/sm-fb.png" alt=""></a>
+                    <a href=""><img src="/images/sm-x.png" alt=""></a>
+                    <a href=""><img src="/images/sm-ig.png" alt=""></a>
                 </div>
                 <div class="newletter">
+                    <div class="content">
+                        <p>Stay Connected!</p>
+                    </div>
+                    <div class="newsletter-button">
+                        <p>email address</p>
+                        <input class="nlb" type="submit" value="submit"></input>
+                    </div>
                 </div>
             </div>
         </div>
