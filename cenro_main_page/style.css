@@ -49,6 +49,11 @@ nav .nav-links a {
     font-family: var(--font1);
     font-size: 15px;
     font-weight: 400;
+    transition: color 0.3s ease;
+}
+
+nav .nav-links a:hover {
+    color: var(--accent);
 }
 
 .content {
@@ -79,6 +84,7 @@ nav .nav-links a {
     line-height: 130%;
     padding-bottom: 40px;
     letter-spacing: 2px;
+    text-align: left;
 }
 
 .content .text-content button {
@@ -402,6 +408,7 @@ nav .nav-links a {
     font-weight: 400;
     line-height: 93.2%; /* 14.912px */
     letter-spacing: 1.92px;
+    cursor: pointer;
 }
 
 /* PARTNERSHIPS */
@@ -481,26 +488,29 @@ footer .punch p {
     justify-content: space-between;
     align-items: center;
     padding: 0 10px;
-    width: 255px;
+    width: 305px;
     height: 34px;
     flex-shrink: 0;
-    border-radius: 2px;
     background: var(--primary);
     box-shadow: 12px 12px 0px 0px rgba(0, 0, 0, 0.37);
 }
 
-.newsletter-button p {
+.newsletter-button input[type="text"] {
     color: var(--white);
     font-family: var(--font2);
     font-size: 12px;
     font-weight: 300;
     line-height: 98.2%; /* 11.784px */
     letter-spacing: 2.88px;
+    border: none;
+    background: transparent;
+    width: 190px;
+    height: 18px;
 }
 
 .newsletter-button .nlb {
     width: 86px;
-    height: 28px;
+    height: 24px;
     flex-shrink: 0;
     background-color: var(--accent);
     color: var(--white);
@@ -511,6 +521,7 @@ footer .punch p {
     letter-spacing: 2.88px;
     padding: 5px 6px;
     border: none;
+    cursor: pointer;
 }
 
 

@@ -10,12 +10,11 @@
         .hero {
             width: 100%;
             min-height: 100vh;
-            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('/images/cover.jpg');
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/cover.jpg');
             background-size: cover;
             background-position: center;
-            box-sizing: border-box;
-            width: 100vw;
             height: 100vh;
+            overflow: hidden;
         }
 
         .row1 .card1 {
@@ -42,6 +41,30 @@
             background-size: cover;
         }
 
+        .row1 .card1f {
+            background-image: url(images/1.png);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .row1 .card2f {
+            background-image: url(images/2.png);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .row2 .card3f {
+            background-image: url(images/3.png);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .row2 .card4f {
+            background-image: url(images/4.png);
+            background-position: center;
+            background-size: cover;
+        }
+
     </style>
 </head>
 <body>
@@ -49,7 +72,7 @@
     <section class="hero">
         <nav>
             <div class="logo">
-                <a href="#"><img src="/images/logo.png" alt=""></a>
+                <a href="#"><img src="images/logo.png" alt=""></a>
             </div>
             <div class="nav-links">
                 <ul>
@@ -118,18 +141,18 @@
         <div class="cards">
             <div class="cards-feature">
                 <div class="row1">
-                    <div class="card1 card-f">
+                    <div class="card1f card-f">
                         <!-- <img src="/images/pic-1.jpg" alt=""> -->
                     </div>
-                    <div class="card2 card-f">
+                    <div class="card2f card-f">
                         <!-- <img src="/images/pic-1.jpg" alt=""> -->
                     </div>
                 </div>
                 <div class="row2">
-                    <div class="card3 card-f">
+                    <div class="card3f card-f">
                         <!-- <img src="/images/pic-1.jpg" alt=""> -->
                     </div>
-                    <div class="card4 card-f">
+                    <div class="card4f card-f">
                         <!-- <img src="/images/pic-1.jpg" alt=""> -->
                     </div>
                 </div>
@@ -252,7 +275,7 @@
                         <p>Stay Connected!</p>
                     </div>
                     <div class="newsletter-button">
-                        <p>email address</p>
+                        <input type="text" name="" id="" placeholder="Enter email">
                         <input class="nlb" type="submit" value="submit"></input>
                     </div>
                 </div>
